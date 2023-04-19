@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "learning nodejs",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon first-app.js",
+    "start-server": "node first-app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadhaNinave/Nodejs.git"
+  },
+  "author": "Radhika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RadhaNinave/Nodejs/issues"
+  },
+  "homepage": "https://github.com/RadhaNinave/Nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
