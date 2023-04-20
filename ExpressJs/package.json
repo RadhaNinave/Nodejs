@@ -2,11 +2,11 @@
   "name": "expressjs",
   "version": "1.0.0",
   "description": "getting started with express js",
-  "main": "Extask2.js",
+  "main": "app2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Extask2.js",
-    "start-server": "node Extask2.js"
+    "start": "nodemon app2.js",
+    "start-server": "node app2.js"
   },
   "author": "Radhika",
   "license": "ISC",

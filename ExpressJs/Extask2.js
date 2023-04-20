@@ -11,7 +11,7 @@ app.use('/product',(req,res,next)=>{
     res.redirect('/')
 })
 app.use('/',(req,res,next)=>{
-    res.send("<h2>welcome to express</h2>")
+    res.send('<h2>welcome to express</h2>')
 })
 const server=http.createServer(app);
 server.listen(5000)
