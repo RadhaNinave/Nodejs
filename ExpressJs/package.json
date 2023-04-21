@@ -2,11 +2,11 @@
   "name": "expressjs",
   "version": "1.0.0",
   "description": "getting started with express js",
-  "main": "chatApp.js",
+  "main": "app2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon chatApp.js",
-    "start-server": "node chatApp.js"
+    "start": "nodemon app2.js",
+    "start-server": "node app2.js"
   },
   "author": "Radhika",
   "license": "ISC",
