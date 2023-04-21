@@ -2,11 +2,11 @@
   "name": "expressjs",
   "version": "1.0.0",
   "description": "getting started with express js",
-  "main": "app2.js",
+  "main": "chatApp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app2.js",
-    "start-server": "node app2.js"
+    "start": "nodemon chatApp.js",
+    "start-server": "node chatApp.js"
   },
   "author": "Radhika",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "body-parser": "^1.20.2"
+    "body-parser": "^1.20.2",
+    "node-localstorage": "^2.2.1"
   }
 }
